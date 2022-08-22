@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.dw.sa"
+  DTS:DTSID="{5B69CA34-7392-4F25-B891-8520FE49E6BC}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=dw;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Projeto Data Warehouse GIT-{5B69CA34-7392-4F25-B891-8520FE49E6BC}localhost.dw.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA84WpwaS1GkyAJsfBdQKEwwAAAAACAAAAAAAQZgAAAAEAACAAAABYID+UmpFGAI6mutQw9wIdbli1Klz6FgGmQZVo3V3IggAAAAAOgAAAAAIAACAAAABlPcSlsRBxWa5tUPyQqtRhFlfBfOuZWTu/y/EKSbScloAAAAAHVdwAGKUqnMNan+lp4jmpedE1Tsa2UoW72JvvoxZSjasfaOE+5Ng0zOdVcQ/Vay+uplXz3rqIza93GhLGxnGziG1ATEXJznB7Z/tX1DeEudLjrt4QiLMLyU8AaYAGRyd5+Qv1aQVZT4bK/g/SD65GocK0FbO2dQhjWcWWr8UHREAAAAC8k7Udm1pVOPp1v9zsXIZf8498J3mYftdvHjcCHH7gGTzD0TbC1CQI3aXtCMRpjP3enGYp9kEPGEf+HOTAJkfA</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

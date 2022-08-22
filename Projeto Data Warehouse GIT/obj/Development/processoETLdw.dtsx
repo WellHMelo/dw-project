@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="8/20/2022 11:58:48 PM"
@@ -25,7 +25,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="data">
       <DTS:VariableValue
-        DTS:DataType="7">8/22/2022 7:48:56 PM</DTS:VariableValue>
+        DTS:DataType="7">8/22/2022 7:48:57 PM</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -4111,14 +4111,14 @@
               startId="Package\Carga das tabelas Stage\Slowly Changing Dimension.Outputs[Historical Attribute Inserts Output]" />
             <path
               refId="Package\Carga das tabelas Stage.Paths[Inferred Member Updates Output1]"
-              endId="Package\Carga das tabelas Stage\OLE DB Command 3.Inputs[OLE DB Command Input]"
-              name="Inferred Member Updates Output"
-              startId="Package\Carga das tabelas Stage\Slowly Changing Dimension 1.Outputs[Inferred Member Updates Output]" />
-            <path
-              refId="Package\Carga das tabelas Stage.Paths[Inferred Member Updates Output]"
               endId="Package\Carga das tabelas Stage\OLE DB Command 1.Inputs[OLE DB Command Input]"
               name="Inferred Member Updates Output"
               startId="Package\Carga das tabelas Stage\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]" />
+            <path
+              refId="Package\Carga das tabelas Stage.Paths[Inferred Member Updates Output]"
+              endId="Package\Carga das tabelas Stage\OLE DB Command 3.Inputs[OLE DB Command Input]"
+              name="Inferred Member Updates Output"
+              startId="Package\Carga das tabelas Stage\Slowly Changing Dimension 1.Outputs[Inferred Member Updates Output]" />
             <path
               refId="Package\Carga das tabelas Stage.Paths[New Output]"
               endId="Package\Carga das tabelas Stage\Union All.Inputs[Union All Input 1]"
@@ -4411,7 +4411,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga das tabelas Stage.Paths[Inferred Member Updates Output1]"
+          Id="Package\Carga das tabelas Stage.Paths[Inferred Member Updates Output]"
           TopLeft="807,251.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -4447,7 +4447,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga das tabelas Stage.Paths[Inferred Member Updates Output]"
+          Id="Package\Carga das tabelas Stage.Paths[Inferred Member Updates Output1]"
           TopLeft="282.75,251.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
